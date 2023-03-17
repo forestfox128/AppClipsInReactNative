@@ -14,5 +14,5 @@ Building the app and/or app clips is possible from xcode level. You need to choo
 ### Documentation and tutorial
 
 - [create app clips](docs/CreateAppClips.md)
-- [put project with app clips on testflight](docs/AppClipsOnTestFlight.md)
+- [build release version](docs/AppClipsOnTestFlight.md)
 - [testing app clips behaviour in development mode](docs/TestingLocally.md)
