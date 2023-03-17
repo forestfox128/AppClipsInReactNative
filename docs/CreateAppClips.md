@@ -2,11 +2,11 @@
 
 1. Create new react native project
 2. Open project in xcode. Then go to File -> New -> Target and search for app clips
-   ![image info](./docs/step1.png)
+   ![image info](./images/step1.png)
 3. Use this selections to create new app clip
-   ![image info](./docs/step2.png)
+   ![image info](./images/step2.png)
 4. You should see created app clip inside your project
-   ![image info](./docs/step3.png)
+   ![image info](./images/step3.png)
 5. Add required pods for your app clip - open ios/Podfile and add there following code
 
    ```
@@ -90,7 +90,7 @@ AppRegistry.registerComponent('AppClipsProjectClip', () => AppClip);
    </dict>
    ```
 10. Try to build and run app clip using xcode
-    ![image info](./docs/step4.png)
+    ![image info](./images/step4.png)
     Note: If you're using react native > 0.69.6 it's likely that you'll get an error similar to `[AppDelegate window]: unrecognized selector sent to instance 0x600000dbc060`. To fix it change code of `ios/<your app clip name>/AppDelegate.h` to
 
 ```
@@ -105,7 +105,7 @@ AppRegistry.registerComponent('AppClipsProjectClip', () => AppClip);
 ```
 
 11. For the release mode you should create run script for app clip - you can name it as below `Bundle React Native code and images` and place it below `Copy Bundle Resources`
-    ![image info](./docs/step5.png)
+    ![image info](./images/step5.png)
 
 ```
 export NODE_BINARY=node
