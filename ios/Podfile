@@ -48,6 +48,7 @@ target 'AppClipsProject' do
     # Pods for testing
   end
 
+  # add to create app clips
   target 'AppClipsProjectClip' do
     inherit! :complete
     # Pods for testing

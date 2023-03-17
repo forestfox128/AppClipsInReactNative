@@ -4,6 +4,7 @@
 //
 //  Created by Barbara Banaszak on 10/03/2023.
 //
+// change to create app clip
 #import "ViewController.h"
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>

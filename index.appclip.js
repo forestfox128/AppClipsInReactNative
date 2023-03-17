@@ -1,3 +1,4 @@
+// add to create app clip
 import {AppRegistry, View, Text, Button} from 'react-native';
 import React from 'react';
 
